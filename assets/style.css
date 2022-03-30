@@ -1,7 +1,21 @@
+/* WEBPAGE COLOR */
+body {background-color: rgb(253, 235, 212)
+}
 
 h1 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
-
-
 }
-body {background-color: rgb(253, 235, 212)}
+
+
+    header nav {float: right;
+            
+        } 
+        header nav ul li {display: inline-block;
+
+        }
+
+    }
+
+
+
+    
