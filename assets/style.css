@@ -16,6 +16,7 @@ header {
         display: inline-block;
         padding: 5px;
         }
+
     main {
         padding: 40px;
     }
@@ -30,9 +31,19 @@ header {
         display: flex;
         flex-direction: row;
     }
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        padding: 5px;
+    }
+    .project {margin: 10px;
+            padding: 5px;
 
+    }
 
     footer { display: flex;
             flex-direction: row;
             justify-content:center;
+            padding: 5px;
     }
