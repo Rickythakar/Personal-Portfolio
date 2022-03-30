@@ -23,10 +23,8 @@ header {
         padding: 5px;
         }
 
-
     #About-Me, #Work {
         margin-top: 50px;
-        border: 1px solid black;
     }
     #About-Me {
         display: flex;
