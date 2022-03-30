@@ -7,13 +7,13 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
 }
 header { 
     border: 1px solid black
-
 }
     header nav {float: right;
             
         } 
-        header nav ul li {display: inline-block;
+    header nav ul li {display: inline-block;
         }
 
     main {margin-top: 100px;
         }
+
