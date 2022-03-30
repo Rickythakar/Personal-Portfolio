@@ -1,9 +1,13 @@
 /* WEBPAGE COLOR */
 body {background-color: rgb(212, 247, 233)
 }
+
+/* Font for heading that says my name, about me, creative content and contact me */
 h1, h2 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
 }
+
+/* Outlining and sizing for the first container that contains my name, profile pic, and a navigation pane */
 header { 
     border: 3px solid black;
     padding: 5px;
@@ -11,39 +15,44 @@ header {
     header nav { 
         float: right;
     }
-    header nav ul li {
-    
+
+/* Navigation Pane */
+header nav ul li {
         display: inline-block;
         padding: 5px;
         }
-
-    main {
+/* Adjust banner so that it can fit the header and is stretch to fit */
+main {
         padding: 40px;
     }
-    aside {display: flex;
+aside {display: flex;
         justify-content: flex-start;
     }
 
-    #About-Me, #Work {
+#About-Me, #Work {
         margin-top: 50px;
     }
-    #About-Me {
+#About-Me {
         display: flex;
         flex-direction: row;
     }
-    .container {
+
+/* Container for the projects in the my content section */
+.container {
         display: flex;
         flex-direction: row;
         justify-content:center;
         padding: 5px;
         flex-wrap: wrap;
     }
-    .project {margin: 10px;
+
+    /* Each Individual Porject */
+.project {margin: 10px;
             padding: 5px;
 
     }
-
-    footer { display: flex;
+/* Contact Me Information and Container */
+footer { display: flex;
             flex-direction: row;
             justify-content:center;
             padding: 5px;
