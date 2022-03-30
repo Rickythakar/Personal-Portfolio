@@ -1,30 +1,26 @@
 /* WEBPAGE COLOR */
 body {background-color: rgb(212, 247, 233)
 }
-
 h1, h2 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
 }
 header { 
     border: 3px solid black;
-            background: url(/assets/images/Red\ Banner.webp) ;
-            background-repeat: no-repeat;
-            background-size: auto;
-        }
-    
-
+    padding: 5px;
+    }
     header nav { 
         float: right;
-
     }
     header nav ul li {
     
         display: inline-block;
         padding: 5px;
         }
-
     main {
         padding: 40px;
+    }
+    aside {display: flex;
+        justify-content: flex-start;
     }
 
     #About-Me, #Work {
@@ -34,6 +30,9 @@ header {
         display: flex;
         flex-direction: row;
     }
+
+
     footer { display: flex;
+            flex-direction: row;
             justify-content:center;
     }
