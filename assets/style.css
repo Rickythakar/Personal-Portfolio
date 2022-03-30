@@ -1,5 +1,5 @@
 /* WEBPAGE COLOR */
-body {background-color: rgb(248, 247, 246)
+body {background-color: rgb(212, 247, 233)
 }
 
 h1, h2 {font-family:'Times New Roman', Times, serifl;
@@ -23,6 +23,10 @@ header {
         padding: 5px;
         }
 
+    main {
+        padding: 40px;
+    }
+
     #About-Me, #Work {
         margin-top: 50px;
     }
@@ -30,3 +34,4 @@ header {
         display: flex;
         flex-direction: row;
     }
+    
