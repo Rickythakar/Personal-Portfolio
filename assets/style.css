@@ -6,16 +6,17 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
 }
 header { 
-    border: 1px solid black
+    border: 3px solid black
 }
-    header nav {float: right;
-            
-        } 
-    header nav ul li {display: inline-block;
-        }
-    banner []
 
-    main {margin-top: 100px;
+    header nav ul li {
+        float: right;
+        display: inline-block;
+        padding: 5px;
         }
 
+#About-Me {
+    margin-top: 50px;
+    border: 1px solid black;
+    }
 
