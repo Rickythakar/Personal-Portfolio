@@ -6,8 +6,13 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
 }
 header { 
-    border: 3px solid black
-}
+    border: 3px solid black;
+            background: url(/assets/images/Red\ Banner.webp) ;
+            background-repeat: no-repeat;
+            background-size: auto;
+        }
+    
+
     header nav { 
         float: right;
 
@@ -18,6 +23,12 @@ header {
         padding: 5px;
         }
 
-#About-Me, #Work {
-    margin-top: 50px;
-    border: 1px solid black;
+
+    #About-Me, #Work {
+        margin-top: 50px;
+        border: 1px solid black;
+    }
+    #About-Me {
+        display: flex;
+        flex-direction: row;
+    }
