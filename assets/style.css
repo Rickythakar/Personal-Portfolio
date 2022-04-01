@@ -22,6 +22,11 @@ header nav ul li {
         padding: 5px;
         }
 /* Adjust banner so that it can fit the header and is stretch to fit */
+.banner {flex-wrap: wrap;
+    
+
+
+}
 main {
         padding: 40px;
     }
