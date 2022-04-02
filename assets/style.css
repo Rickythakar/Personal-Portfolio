@@ -11,7 +11,11 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
 header { 
     border: 3px solid black;
     padding: 5px;
+    background-image: url("images/Red\ Banner.webp");
+    /* Adding a background image to header using the style above ^ */
+    height: 300px;
     }
+
     header nav { 
         float: right;
     }
@@ -22,11 +26,11 @@ header nav ul li {
         padding: 5px;
         }
 /* Adjust banner so that it can fit the header and is stretch to fit */
-.banner {flex-wrap: wrap;
+/* .banner {flex-wrap: wrap;
     
 
 
-}
+} */
 main {
         padding: 40px;
     }
@@ -43,6 +47,30 @@ aside {display: flex;
     }
 
 /* Container for the projects in the my content section */
+.project{height: 200px;
+        width: 200px;
+        border: 2px solid black;
+
+}
+
+
+.coming-soon{background-image: url(./images/image-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}   
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    opacity: 0.3;
+}
+.overlay:hover {
+    opacity: 0;
+    
+ }
+
 .container {
         display: flex;
         flex-direction: row;
