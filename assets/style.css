@@ -11,7 +11,7 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
 header { 
     border: 3px solid black;
     padding: 5px;
-    background-image: url("images/Red\ Banner.webp");
+    background-image: url("./images/image-1.png");
     /* Adding a background image to header using the style above ^ */
     height: 300px;
     }
@@ -68,8 +68,7 @@ aside {display: flex;
 }
 .overlay:hover {
     opacity: 0;
-    
- }
+}
 
 .container {
         display: flex;
