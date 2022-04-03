@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,116 +13,118 @@
 
 
 <!-- Stesp to follow Replace id's with classes -->
-<body> 
+
+<body>
     <header>
-        <!-- Heading -->
-        <h1>Ricky Thakar </h1>
-        
-        <!-- navigation pane -->
+        <div class="header-top">
+            <h1>Ricky Thakar </h1>
+            <!-- navigation pane -->
             <nav>
-            <ul>
-                <li>
-            <a href="#About Me">About Me</a>
-                </li>
-            
-                <li>
-            <a href="#Work">Creative Content</a>
-                </li>
-            
-                <li>
-            <a href="#Contact Me ">Contact Me</a>
-                </li>
+                <ul>
+                    <li>
+                        <a href="#About Me">About Me</a>
+                    </li>
 
-                <!-- Commented Resume section out until Resume is ready to post -->
-                <!-- <li>
-            <a href="#Resume">Resume</a>
-                </li>
-            -->
-            </ul>
+                    <li>
+                        <a href="#Work">Creative Content</a>
+                    </li>
+
+                    <li>
+                        <a href="#Contact Me ">Contact Me</a>
+                    </li>
+
+                    <!-- Commented Resume section out until Resume is ready to post -->
+                    <!-- <li>
+                <a href="#Resume">Resume</a>
+                    </li>
+                -->
+                </ul>
             </nav>
-            
-            <!-- Banner at the top of the webpage by the heading -->
-        <!-- <div class="banner">
-            <img id="banner" src="./assets/images/Red Banner.webp" alt="Placeholder">
-        </div> -->
-    </header>
-
-
-<!-- Main element can be used to control the styling of the entire webpage aside from the heaqding -->
-<main>
-
-<summary id="About-Me"></summary>
-<Aside>
-        <!-- Heading for about me section -->
-    <h2 id="About Me">About Me</h2>
-
-</Aside>   
-    <!-- Personal Summary -->
-    <!-- About Me and Introduction section -->
-
-
-    <p>
-Hi! My name is Ricky and I'm currently studying web design and development.
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit. 
-Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?Lorem 
-ipsum dolor sit amet, consectetur adipisicing elit. 
-Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit. 
-Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?
-    </p>
-    </summary>
-    
-    <!-- End of the about me section -->
-
-
-
-    <!-- New Section related to my work and apps that I have created -->
-    <section id="Work">
-    <!-- Heading for second section -->
-        <h2 id="My Work">Creative Content</h2>
-
-    <!-- Section for my work that will include pictures, links, and samples of both my current and future projects" -->
-    <p>
-Here you can find some of the content that I have taken my time to create.
-    </p>
-
-    <div class="container">
-
-        <div class="project coming-soon" alt="Placeholder">
-            <div class="overlay"></div>
-
 
         </div>
 
-        <div class="project coming-soon" alt="Placeholder"></div>
-        <div class="project coming-soon" alt="Placeholder"></div>
-        <div class="project coming-soon" alt="Placeholder"></div>
-<!-- 
-        <img class="project" id="Coming Soon" src="./assets/images/image-1.png" alt="Placeholder">
-        <img class="project" id="Coming Soon" src="./assets/images/image-1.png" alt="Placeholder">
-        <img class="project" id="Coming Soon" src="./assets/images/image-1.png" alt="Placeholder"> -->
-    </div>
-    </section>
-    <!-- End of my work section -->
+        <div class="header-bottom"></div>
+        <!-- Heading -->
+
+    </header>
 
 
-    <!-- Begin Footer section for Contact Information -->
-    <footer class="text-center">
-        <h2 id="Contact Me">Contact Me</h2>
+    <!-- Main element can be used to control the styling of the entire webpage aside from the heaqding -->
+    <main>
+        <section class="section">
+            <!-- Heading for about me section -->
+            <h2 class="About-Me title">About Me</h2>
+            <!-- Personal Summary -->
+            <!-- About Me and Introduction section -->
+            <p>
+                Hi! My name is Ricky and I'm currently studying web design and development.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit.
+                Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?Lorem
+                ipsum dolor sit amet, consectetur adipisicing elit.
+                Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit.
+                Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?
+            </p>
+        </section>
+        <!-- End of the about me section -->
 
-    <!-- Contact information can be filled out below -->
-    <ul>
-<li>
-Phone Number: 555-555-5555
-</li>
-<li>
-Email: Rickythakar@example.com
-</li>   
-    </ul>
+        <section class="section Work">
 
-    </footer>
+            <!-- New Section related to my work and apps that I have created -->
+            <!-- Heading for second section -->
+            <h2 class="Work title">Creative Content</h2>
 
-</main>
+            <!-- Section for my work that will include pictures, links, and samples of both my current and future projects" -->
+            <div>
+                <p>
+                    Here you can find some of the content that I have taken my time to create.
+                </p>
+
+
+                <!-- Containers for my work -->
+
+                <div class="container">
+                    <a href="https://rickythakar.github.io/Password-Generator/">
+                        <div class="project password-gen" alt="Placeholder">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
+
+
+                    <div class="project coming-soon" alt="Placeholder">
+                        <div class="overlay"></div>
+                    </div>
+
+                    <div class="project coming-soon" alt="Placeholder"></div>
+
+
+                    <div class="project coming-soon" alt="Placeholder"></div>
+                </div>
+            </div>
+        </section>
+        <!-- End of my work section -->
+
+
+        
+
+        <!-- Begin Footer section for Contact Information -->
+        <footer class="text-center">
+            <h2 id="Contact Me">Contact Me</h2>
+
+            <!-- Contact information can be filled out below -->
+            <ul>
+                <li>
+                    Phone Number: 555-555-5555
+                </li>
+                <li>
+                    Email: Rickythakar@example.com
+                </li>
+            </ul>
+
+        </footer>
+
+    </main>
 
 </body>
+
 </html>

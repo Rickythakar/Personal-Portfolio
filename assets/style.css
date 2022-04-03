@@ -1,5 +1,6 @@
 /* WEBPAGE COLOR */
-body {background-color: rgb(212, 247, 233)
+body {background-color: rgb(212, 234, 247);
+    margin: 2px;
 }
 
 /* Font for heading that says my name, about me, creative content and contact me */
@@ -7,28 +8,58 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
     color: rgba(12, 55, 134, 0.781);
 }
 
+.flex {
+    display: flex;
+}
+
 /* Outlining and sizing for the first container that contains my name, profile pic, and a navigation pane */
 header { 
     border: 3px solid black;
-    padding: 5px;
-    background-image: url("./images/image-1.png");
+    font-size: larger;
+    background-image: url("./images/blue_banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
     /* Adding a background image to header using the style above ^ */
     height: 300px;
     }
+    
+.header-top {
+    background-color: gray;
+    padding: 10px;
+}
+
+
+/* making header top into a flex container when the page is over 700 */
+@media (min-width: 700px) {
+    .header-top {display: flex;
+    justify-content: space-between;
+    align-items: center;}
+    
+@media (min-width: 700px) {
+    .section {display: flex;
+    justify-content: space-between;}
+    .section .title {
+        width: 40%;
+        text-align: right;
+        margin-right: 40px;
+    }
+}
+
 
     header nav { 
-        float: right;
+        display:flex;
+        flex: right;
+        
     }
-
 /* Navigation Pane */
 header nav ul li {
         display: inline-block;
         padding: 5px;
+        font-size: large;
         }
 /* Adjust banner so that it can fit the header and is stretch to fit */
 /* .banner {flex-wrap: wrap;
     
-
 
 } */
 main {
@@ -47,9 +78,15 @@ aside {display: flex;
     }
 
 /* Container for the projects in the my content section */
-.project{height: 200px;
-        width: 200px;
-        border: 2px solid black;
+.project{
+    height: 400px;
+    width: 600px;
+    border: 2px solid black;
+
+}
+.password-gen{background-image: url(./images/screenshot-password-gen.png);
+    background-size: cover;
+    background-position: center;
 
 }
 
