@@ -7,3 +7,6 @@ The ground work of the portfolio is that it will have my name, a bio, my project
 Below is a link for my portfolio.
 ![Link] ( https://rickythakar.github.io/Personal-Portfolio/)
 
+
+A screenshot is also available for the project now
+![screenshot](./assets/Portfolio_screenshot.png)
