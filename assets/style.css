@@ -1,5 +1,5 @@
 /* WEBPAGE COLOR */
-body {background-color: rgb(212, 234, 247);
+body {background-color: rgb(155, 177, 191);
     margin: 2px;
 }
 
@@ -16,21 +16,19 @@ h1, h2 {font-family:'Times New Roman', Times, serifl;
 header { 
     border: 3px solid black;
     font-size: larger;
-    background-image: url("./images/blue_banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     /* Adding a background image to header using the style above ^ */
-    height: 300px;
+    height: auto;
     }
     
 .header-top {
-    background-color: gray;
     padding: 10px;
 }
 
 
 /* making header top into a flex container when the page is over 700 */
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
     .header-top {display: flex;
     justify-content: space-between;
     align-items: center;}
@@ -43,7 +41,7 @@ header {
         text-align: right;
         margin-right: 40px;
     }
-}
+} */
 
 
     header nav { 
@@ -82,6 +80,10 @@ aside {display: flex;
     height: 400px;
     width: 600px;
     border: 2px solid black;
+}
+.project1{background-image: url(./images/screencapture-michaelmletanosky-github-io-worth-a-shot-2022-04-18-20_33_07.png);
+    background-size: cover;
+    background-position: center;
 
 }
 .password-gen{background-image: url(./images/screenshot-password-gen.png);
@@ -89,7 +91,6 @@ aside {display: flex;
     background-position: center;
 
 }
-
 
 .coming-soon{background-image: url(./images/image-1.png);
     background-size: cover;
@@ -121,8 +122,8 @@ aside {display: flex;
 
     }
 /* Contact Me Information and Container */
-footer { display: flex;
+footer{display: flex;
             flex-direction: row;
             justify-content:center;
             padding: 5px;
-    }
+}
