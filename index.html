@@ -11,83 +11,71 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
-
-<!-- Stesp to follow Replace id's with classes -->
-
 <body>
     <header>
         <div class="header-top">
-            <div class="nameAndPicture">
-            <h1>Ricky Thakar </h1>
-                <img id=selfpicture src="./assets/images/IMG_4630 Small.jpeg" alt="SelfPortrait">
-            </div>
+            <h1>Hi my name is Ricky Thakar </h1>
             <!-- navigation pane -->
-            <nav>
+            <nav class="container-nav">
                 <ul>
                     <li>
-                        <a href="#About Me">About Me</a>
+                        <a href="#About-Me">About Me</a>
                     </li>
                     <li>
-                        <a href="#Work">Creative Content</a>
+                        <a href="#Work">My Projects</a>
                     </li>
                     <li>
-                        <a href="#Contact Me ">Contact Me</a>
+                        <a href="https://github.com/Rickythakar" target=”_blank”>GitHub</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/ricky-thakar-4a82231a2/" target=”_blank”>LinkedIn</a>
                     </li>
                     <!-- Commented Resume section out until Resume is ready to post -->
-                    <!-- <li>
-                <a href="#Resume">Resume</a>
-                    </li>
-                -->
+                    <!-- <li><a href="#Resume">Resume</a></li>-->
                 </ul>
             </nav>
-
+            <img id=selfpicture src="./assets/images/IMG_4630 Small.jpeg" alt="SelfPortrait"
+                style="border-radius: 50px;">
         </div>
-
-        <div class="header-bottom"></div>
-        <!-- Heading -->
-
     </header>
-
 
     <!-- Main element can be used to control the styling of the entire webpage aside from the heaqding -->
     <main>
-        <section class="section" id="#About Me">
+        <section class="about-me" id="#About-Me">
             <!-- Heading for about me section -->
-            <h2 class="About-Me title">About Me</h2>
+            <h1 class="About-Me title">About Me</h1>
             <!-- Personal Summary -->
             <!-- About Me and Introduction section -->
             <p>
-                Hi! My name is Ricky and I'm currently studying web design and development.
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit.
-                Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?Lorem
-                ipsum dolor sit amet, consectetur adipisicing elit.
-                Consequuntur quod eaque magnam aut nesciunt asperiores, ducimus cupiditate sit.
-                Sapiente, quae blanditiis? Id itaque, ipsam veniam sit a fugiat accusamus voluptas?
+                Hi! My name is Ricky Thakar and I am an aspiring web developer. Currently I am enrolled in the UCF
+                coding bootcamp where I plan to learn full stack web development. Languages that I practice are: HTML5,
+                CSS3, and Javascript!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas consectetur sit voluptate earum facilis
+                molestias mollitia nesciunt omnis, voluptates sapiente, nobis reiciendis itaque distinctio. Animi,
+                velit. Error molestiae fuga tempore.
             </p>
         </section>
         <!-- End of the about me section -->
 
         <section class="section Work">
-
             <!-- New Section related to my work and apps that I have created -->
             <!-- Heading for second section -->
-            <h2 class="Work title">Creative Content</h2>
+            <h1 class="Work title">Creative Content</h1>
 
             <!-- Section for my work that will include pictures, links, and samples of both my current and future projects" -->
             <div>
-                <p>
+                <p style="text-align: center;">
                     Here you can find some of the content that I have taken my time to create.
                 </p>
 
 
                 <!-- Containers for my work -->
                 <div class="container projects" id="#Work">
-                <a href="https://michaelmletanosky.github.io/worth-a-shot/">
-                    <div class="project project1" alt="Placeholder">
-                        <div class="overlay"></div>
-                    </div>
-                </a>
+                    <a href="https://michaelmletanosky.github.io/worth-a-shot/">
+                        <div class="project project1" alt="Placeholder">
+                            <div class="overlay"></div>
+                        </div>
+                    </a>
 
                     <a href="https://rickythakar.github.io/password-generator/">
                         <div class="project password-gen" alt="Placeholder">
@@ -96,8 +84,7 @@
                     </a>
 
                     <div class="project coming-soon" alt="Placeholder"></div>
-
-                    <div class="project coming-soon" alt="Placeholder"></div>
+                    <!-- <div class="project coming-soon" alt="Placeholder"></div> -->
                 </div>
             </div>
         </section>
@@ -109,9 +96,9 @@
 
             <!-- Contact information can be filled out below -->
             <ul>
-                <li>
+                <!-- <li>
                     Phone Number: 555-555-5555
-                </li>
+                </li> -->
                 <li>
                     Email: Rickythakar@example.com
                 </li>
