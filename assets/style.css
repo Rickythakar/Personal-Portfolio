@@ -77,6 +77,11 @@ p{
     background-size: cover;
     background-position: center;
 }
+.note-taker {
+    background-image: url(./images/note-taker-screenshot.png);
+    background-size: cover;
+    background-position: center;
+}
 
 .coming-soon {
     background-image: url(./images/image-1.png);
