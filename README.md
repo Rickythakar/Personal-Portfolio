@@ -8,7 +8,7 @@ For now the layout is available and one of the projects that I have worked on is
 
 
 Below is a link for my portfolio.
-![Link] ( https://rickythakar.github.io/Personal-Portfolio/)
+![Link] (https://rickythakar.github.io/professional-portfolio/)
 
 
 A screenshot is also available for the project now
