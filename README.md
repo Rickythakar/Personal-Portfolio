@@ -12,4 +12,4 @@ Below is a link for my portfolio.
 
 
 A screenshot is also available for the project now
-![screenshot](./assets/Portfolio_screenshot.png)
+![screenshot](./assets/images/portfolio_screenshot.png)
